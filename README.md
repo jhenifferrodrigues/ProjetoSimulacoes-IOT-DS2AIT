@@ -12,8 +12,6 @@ Este repositório reúne simulações de projetos com diferentes **sensores inte
 Simulação de um sistema de contagem automatizada em uma linha de produção.
 Com o uso de um **sensor ultrassônico**, o sistema detecta a passagem de objetos e contabiliza. A cada 10 objetos detectados, é simulada a formação de uma caixa completa.
 
-> ![Contagem de Caixas](./atividade%20caixas/caixas.jpg)
-
 ---
 
 #### 💡 Detecção de Luminosidade
@@ -21,15 +19,11 @@ Com o uso de um **sensor ultrassônico**, o sistema detecta a passagem de objeto
 Nesta simulação, um **sensor LDR (fotoresistor)** é utilizado para medir a intensidade da luz ambiente.
 Com base nessa leitura, um **LED** é controlado automaticamente, funcionando como uma "lâmpada inteligente".
 
-> ![Luminosidade](./luminosidade/Circuito%20Físico%20-%20Luminosidade.jpeg)
-
 ---
 
 #### 💧 Sensor de Umidade de Solo
 
 Este projeto simula um sistema de irrigação automatizado. Um **sensor de umidade de solo** detecta a quantidade de água no solo.
-
-> ![Sensor de Umidade](./sensor%20umidade/umidade.jpg)
 
 ---
 
@@ -37,8 +31,6 @@ Este projeto simula um sistema de irrigação automatizado. Um **sensor de umida
 
 Simulação de um sistema de **segurança com detecção de presença**.
 Um **sensor ultrassônico** mede continuamente a distância até um objeto, e caso detecte aproximação indesejada, aciona um **LED de alerta** indicando a presença de um "intruso".
-
-> ![Sensor Ultrassônico](./ultrassônico/Circuito%20Físico%20-%20Ultrassônico.jpeg)
 
 ---
 
@@ -64,4 +56,5 @@ Um **sensor ultrassônico** mede continuamente a distância até um objeto, e ca
 * 🌐 Simulação no Wokwi: [https://wokwi.com/](https://wokwi.com/)
 
 ---
+
 
