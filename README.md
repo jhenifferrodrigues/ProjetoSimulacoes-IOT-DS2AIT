@@ -1,57 +1,67 @@
 ﻿# ProjetoSimulacoes-IOT-DS2AIT
+###  Descrição
 
-### 📝 Descrição
-
-Este projeto consiste na simulação de diversos projetos com **sensores diferentes com ESP32**, programado em **MicroPython**.  
-
-A simulação foi desenvolvida no [**Wokwi**](https://wokwi.com/), servindo como introdução a conceitos básicos de **IoT (Internet das Coisas)** e integração de sensores com atuadores.
+Este repositório reúne simulações de projetos com diferentes **sensores integrados ao ESP32**, utilizando **MicroPython** como linguagem de programação. As simulações foram desenvolvidas na plataforma [**Wokwi**](https://wokwi.com/), com o objetivo de introduzir conceitos básicos de **IoT (Internet das Coisas)**, sensores e atuadores.
 
 ---
 
-### 🪶 Atividades
+### 🔧 Projetos Simulados
 
-#### 📦 Atividade de Contagem de Caixas
+#### 📦 Contagem de Caixas
 
-Essa atividade simula um sistema de contagem automatizada para uma linha de produção. Utilizando um **sensor ultrassônico** o projeto detecta a passagem de objeto e os contabiliza. A cada 10 objetos detectados, ele simula o fechamento de uma caixa e incrementa a contagem de caixas completas.
+Simulação de um sistema de contagem automatizada em uma linha de produção.
+Com o uso de um **sensor ultrassônico**, o sistema detecta a passagem de objetos e contabiliza. A cada 10 objetos detectados, é simulada a formação de uma caixa completa.
 
-![Foto contagem de caixas](./atividade%20caixas/caixas.jpg)
-
-#### 💡 Atividade de Luminosidade
-
-Esta atividade foca na medição da luminosidade do ambiente. O projeto usa um **sensor de luz LDR** para ler a quantidade de luz presente no local. Com base na leitura, o ESP32 controla um **LED** atuando como uma lâmpada automática.
-
-![Foto luminosidade](./luminosidade/Circuito%20Físico%20-%20Luminosidade.jpeg)
-
-#### 💧 Atividade de Sensor de Umidade
-
-Este projeto demonstra a automação de um sistema de irrigação. Utilizando um **sensor de umidade de solo**, o ESP32 monitora a quantidade de água no solo. O código define um valor limite para indicar umidade baixa.
-
-![Foto umidade](./sensor%20umidade/umidade.jpg)
-
-#### 🚨 Atividade de Sensor Ultrassônico
-
-Essa atividade simula um sistema simples de alarme/segurança. Ele utiliza um **sensor ultrassônico** para medir a distância de objetos. O sistema foi programado para atuar como um sensor de presença. detectando se algo ou alguém se aproxima de um ponto específico.
-
-![Foto umidade](./ultrassônico/Circuito%20Físico%20-%20Ultrassônico.jpeg)
+> ![Contagem de Caixas](./atividade%20caixas/caixas.jpg)
 
 ---
 
-### 🛠️ Tecnologias Utilizadas 
+#### 💡 Detecção de Luminosidade
 
-- **ESP32**
-- [**Wokwi - Simulador online**](https://wokwi.com/)
+Nesta simulação, um **sensor LDR (fotoresistor)** é utilizado para medir a intensidade da luz ambiente.
+Com base nessa leitura, um **LED** é controlado automaticamente, funcionando como uma "lâmpada inteligente".
 
+> ![Luminosidade](./luminosidade/Circuito%20Físico%20-%20Luminosidade.jpeg)
 
+---
+
+#### 💧 Sensor de Umidade de Solo
+
+Este projeto simula um sistema de irrigação automatizado. Um **sensor de umidade de solo** detecta a quantidade de água no solo.
+
+> ![Sensor de Umidade](./sensor%20umidade/umidade.jpg)
+
+---
+
+#### 🚨 Alarme com Sensor Ultrassônico
+
+Simulação de um sistema de **segurança com detecção de presença**.
+Um **sensor ultrassônico** mede continuamente a distância até um objeto, e caso detecte aproximação indesejada, aciona um **LED de alerta** indicando a presença de um "intruso".
+
+> ![Sensor Ultrassônico](./ultrassônico/Circuito%20Físico%20-%20Ultrassônico.jpeg)
+
+---
 
 ### 👨‍💻 Desenvolvedores
+[https://github.com/jhenifferrodrigues](https://github.com/jhenifferrodrigues)
+[https://github.com/bueninkt](https://github.com/bueninkt)
 
-- [Vinícius José Lopes Cardoso](https://github.com/Vyneelric)
-- [João Campos](https://github.com/campoos)
+
+---
+
+### 🧰 Tecnologias Utilizadas
+
+* **ESP32**
+* **MicroPython**
+* **Sensores (LDR, Umidade, Ultrassônico)**
+* [**Wokwi – Simulador Online**](https://wokwi.com/)
 
 
+---
 
 ### 🔗 Links Úteis
 
-- 🔧 Site da simulação: [Wokwi - ESP32](https://wokwi.com/)  
+* 🌐 Simulação no Wokwi: [https://wokwi.com/](https://wokwi.com/)
 
-- 🏫 SENAI Jandira: [sp.senai.br/unidade/jandira](https://sp.senai.br/unidade/jandira/)
+---
+
